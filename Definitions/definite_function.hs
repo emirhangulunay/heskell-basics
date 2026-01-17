@@ -10,7 +10,7 @@
 -- rotateHorse :: Picture
 -- rotateHorse = flipH(flipV horse)
 
--- suqare :: Integer -> Integer
+-- square :: Integer -> Integer
 -- square n = n*n
 
 -- square 5 = 5*5
@@ -37,10 +37,20 @@
 
 
 
+-- bigPic = scale (horse `above` (flipH horse)) 42
+-- mirror pic = pic `beside` (flipV pic)
 
 
 
+-- test_rotate, test_flipV, test_flipH :: Bool
 
+-- test_rotate = flipV(flipV horse) == flipH (flipV horse)
+-- test_flipV = flipV (flipV horse) == horse
+
+-- prop_rotate, prop_flipV, prop_flipH :: Picture -> Bool
+-- prop_rotate pic = flipV (flipH pic) == flipH (flipV pic)
+-- prop_flipV pic = flipV (flipV pic) == pic
+-- prop_flipH pic = flipH (flipV pic) == pic
 
 
 
