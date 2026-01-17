@@ -21,11 +21,36 @@
 -- emir :: Integer -> Integer
 -- emir e = e*e
 
-rotateHorse :: Picture -> Picture
-rotateHorse pic = flipH (flipV pic) 
+-- rotateHorse :: Picture -> Picture
+-- rotateHorse pic = flipH (flipV pic) 
 
-rotateHorse :: Picture
-rotateHorse = rotate horse
+-- rotateHorse :: Picture
+-- rotateHorse = rotate horse
 
-rotate :: Picture -> Picture
-rotate = flipH . flipV
+-- rotate :: Picture -> Picture
+-- rotate = flipH . flipV
+
+-- double :: Integer -> Integer
+-- double n = 2*n
+
+-- render ((horse `beside` flipV horse)) `above` ((flipV horse)) `beside`))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
